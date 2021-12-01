@@ -26,7 +26,7 @@ const TransactionLists = () => {
 
   const getTransactions = async () => {
     setLoading(true);
-    const {data} = await axios.get("http://localhost:5000/transactions")
+    const {data} = await axios.get("/transactions")
     setTransactions(data.transactions)
     setLoading(false)
   };

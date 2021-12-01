@@ -93,7 +93,7 @@ const Cart = () => {
         total,
         scans,
       };
-      await axios.post("http://localhost:5000/transactions", data);
+      await axios.post("/transactions", data);
       dispatch(clearCart());
       handleClose();
     } else {

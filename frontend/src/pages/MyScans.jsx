@@ -27,7 +27,7 @@ const MyScans = () => {
 
   const getTransactions = async () => {
     setLoading(true);
-    const { data } = await axios.get(`http://localhost:5000/transactions/${user.id}`);
+    const { data } = await axios.get(`/transactions/${user.id}`);
     setTransactions(data.transactions);
     setLoading(false);
   };
