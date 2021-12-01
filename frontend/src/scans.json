@@ -1,0 +1,55 @@
+{
+    "scans":[
+        {
+            "id":1,
+            "name":"MRI",
+            "image":"https://www.alliancemedical.co.uk/sites/default/files/styles/image_link/public/upload/images/thumbnails/AM_15_09_14_0071-400x225px.jpg?itok=eLO9VSuQ",
+            "description":"A powerful tool that uses strong magnetic fields to produce images",
+            "available":"December 14, 2021",
+            "amount": "500"
+        },{
+            "id":2,
+            "name":"CT",
+            "image":"https://www.alliancemedical.co.uk/sites/default/files/styles/image_link/public/upload/images/thumbnails/AM_05_09_14_1084-400x225px_0.jpg?itok=wtdqOqVS",
+            "description":"A sensitive diagnostic tool used to image many diseases and injuries",
+            "available":"December 4, 2021",
+            "amount": "200"
+        },{
+            "id":3,
+            "name":"PET/CT",
+            "image":"https://www.alliancemedical.co.uk/sites/default/files/styles/image_link/public/upload/images/thumbnails/AM_25_09_14_0306-400x225px.jpg?itok=wEXyvjHg",
+            "description":"A diagnostic tool used mainly in oncology, neurology, cardiology, infection and inflammation, and in planning surgery and treatment",
+            "available":"November 30, 2021",
+            "amount": "500"
+        },{
+            "id":4,
+            "name":"X-ray",
+            "image":"https://www.alliancemedical.co.uk/sites/default/files/styles/image_link/public/upload/images/thumbnails/AM_05_09_14_0349-400x225px.jpg?itok=OuS9lREZ",
+            "description":"An established tool used to produce images of tissues, bones and organs",
+            "available":"December 30, 2021",
+            "amount": "450"
+        },{
+            "id":5,
+            "name":"Ultrasound",
+            "image":"https://www.alliancemedical.co.uk/sites/default/files/styles/image_link/public/upload/images/thumbnails/AM_05_09_14_0525-400x225px.jpg?itok=ALjih-56",
+            "description":"A versatile tool that generates images using high frequency sound waves",
+            "available":"January 2, 2022",
+            "amount": "275"
+        },{
+            "id":6,
+            "name":"Bone densitometry (DEXA)",
+            "image":"https://www.alliancemedical.co.uk/sites/default/files/styles/image_link/public/upload/images/thumbnails/AM_15_09_14_0236-400x225px_0.jpg?itok=doaMVaSN",
+            "description":"An analytical technique used to assess mineral bone density and can diagnose osteoporosis",
+            "available":"December 9, 2021",
+            "amount": "1250"
+        },{
+            "id":7,
+            "name":"Fluoroscopy",
+            "image":"https://www.alliancemedical.co.uk/sites/default/files/styles/image_link/public/upload/images/thumbnails/Fluoroscopy-Machine-400x225px.jpg?itok=6m67ZZXo",
+            "description":"An imaging technique that uses X-rays to obtain real-time moving images of the internal structures of a patient through the use of a fluoroscope.",
+            "available":"February 6, 2022",
+            "amount": "1500"
+        }
+
+    ]
+}
