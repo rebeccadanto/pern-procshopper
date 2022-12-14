@@ -47,7 +47,7 @@ module.exports = {
       res.send({ message: "Login Successfully", user });
 
     } catch (error) {
-      console.log(error.message);
+      console.log("Error", error.message);
       res.status(500).send({ message: "Internal Server Error" });
     }
   },
