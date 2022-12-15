@@ -20,7 +20,7 @@ module.exports = {
       const encrypted_pass = await bcrypt.hash(password, salt);
 
       await pool.query(`insert into users (id, firstname, lastname, email, insurance, phone, password, role)
-                    values ('${id}', '${firstname}', '${lastname}', '${email}', '${insurance}', '${phone}', '${encrypted_pass}', 'user')
+                    values ('${id}', '${firstname}', '${lastname}', '${email}', '${insurance}', '${phone}', '${encrypted_pass}', 'physician')
             `);
 
       const result = await pool.query(`select * from users where id = '${id}'`);
